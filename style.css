@@ -30,7 +30,15 @@ main{
     height: 350px;
     width: 350px;
     border-radius: 15px;
-    background-color: rgb(255, 255, 255, 0.7);
+    background-color: white;
+    overflow: hidden;
+}
+
+.banner-pic{
+    background-image: url("https://media.istockphoto.com/photos/simple-abstract-light-pink-gradient-banner-background-picture-id1060281456?k=6&m=1060281456&s=170667a&w=0&h=HO6SoJRFrb5C43c-MsSjfjgm7OYBS5S5hq5l26vTpL0=");
+    width: 350px;
+    height: 180px;
+    margin-top: -80px;
 }
 
 .avatar{ 
@@ -38,15 +46,13 @@ main{
     border-radius: 50%;
     border: 5px solid white;
     width: 25%;
-    margin-top: 80px;
-    
+    margin-top: -35px;
 }
 
 .bio{
     text-align: center;
     height: 65px;
     border-bottom: 1px solid silver;
-    margin-top: 10px;
     margin-bottom: 0;
     line-height: 1.7;
 }
@@ -72,7 +78,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 20px;
+    padding-top: 40px;
     font-weight: 700;
 
 }
